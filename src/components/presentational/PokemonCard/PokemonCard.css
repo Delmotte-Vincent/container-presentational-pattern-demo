@@ -1,0 +1,52 @@
+.card-container {
+  display: flex;
+  height: 60px;
+  border: 1px solid rgb(172, 172, 172);
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.pokemon-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.types {
+  display: flex;
+  gap: 4px;
+}
+
+.type-chip {
+  background-color: rgb(233, 233, 233);
+  border-radius: 3px;
+  padding: 4px 10px;
+}
+
+img {
+  height: 100%;
+  margin-right: 10px;
+}
+
+h1 {
+  margin: 0;
+  text-transform: capitalize;
+  font-size: 24px;
+}
+
+.description-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.stats p {
+  margin: 0;
+  font-size: 14px;
+}
